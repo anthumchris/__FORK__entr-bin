@@ -1,0 +1,3 @@
+[submodule "src-entr"]
+	path = src-entr
+	url = https://github.com/eradman/entr.git

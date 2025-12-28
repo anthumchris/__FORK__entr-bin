@@ -7,8 +7,8 @@
     "entr": "bin.js"
   },
   "scripts": {
-    "preinstall": "cd source && ./configure",
-    "install": "cd source && make test && env PREFIX=$(pwd)/../build make install"
+    "preinstall": "git submodule update --init && cd src-entr && ./configure",
+    "install": "cd src-entr && make test && env PREFIX=$(pwd)/../build make install"
   },
   "repository": {
     "type": "git",
